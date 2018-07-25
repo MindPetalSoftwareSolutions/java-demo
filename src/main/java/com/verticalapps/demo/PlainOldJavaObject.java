@@ -56,8 +56,7 @@ public class PlainOldJavaObject {
 			return false;
 		else {
 			PlainOldJavaObject other = (PlainOldJavaObject) pojo;
-			return ((this.getThing1().equals(other.getThing1()) 
-					&& this.getThing2().equals(other.getThing2())));
+			return ((this.getThing1().equals(other.getThing1()) && this.getThing2().equals(other.getThing2())));
 		}
 
 	}
